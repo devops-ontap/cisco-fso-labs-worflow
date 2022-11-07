@@ -1,0 +1,12 @@
+git-branch: yourbranch
+git-uri: git@github.com:devops-ontap/cisco-fso-labs.git
+Username: fsolab4
+email: fsolab4@gmail.com
+private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+ssh_aws_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+
+
+
+

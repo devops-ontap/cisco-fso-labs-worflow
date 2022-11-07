@@ -1,0 +1,165 @@
+✓ cluster-registry/wait/readiness ❯ ok name=cluster-registry-controller, namespace=cluster-registry, apiVersion=apps/v1, kind=Deployment
+✓ cluster-registry/wait/readiness ❯ done
+✓ istio ❯ reconciling
+✓ istio ❯ syncing resources
+✓ istio ❯ resource is in sync name=istio-system, apiVersion=v1, kind=Namespace
+✓ istio ❯ resource is in sync name=cp-v112x, namespace=istio-system, apiVersion=servicemesh.cisco.com/v1alpha1, kind=IstioControlPlane
+✓ istio ❯ reconciled
+Error with stack:
+no cluster manager found for remote cluster lab
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/license/usage.(*ClusterDataProvider).GetMultiClusterMesh
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/license/usage/provider.go:47
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/license.(*Validator).Validate
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/license/validator.go:48
+wwwin-github.cisco.com/cisco-app-networking/smm/services/operator/pkg/components/license.Reconciler.Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/operator/pkg/components/license/reconciler.go:42
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/operator/reconciler.(*Dispatcher).Handle
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/operator/reconciler/component.go:137
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/operator/reconciler.(*Dispatcher).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/operator/reconciler/component.go:91
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:29
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileFuncWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:40
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:28
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.(*ControlPlaneDeployer).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/controlplane.go:623
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.(*manageComponentsCommand).run
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:226
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.NewManageComponentsCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:80
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.(*installCommand).runOperatorReconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:360
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.NewInstallCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:141
+github.com/spf13/cobra.(*Command).execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:856
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:974
+github.com/spf13/cobra.(*Command).Execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:902
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/pkg/cli/cmd.Execute
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/pkg/cli/cmd/root.go:100
+main.main
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/cmd/backyards/main.go:33
+runtime.main
+        /usr/local/go/src/runtime/proc.go:255
+runtime.goexit
+        /usr/local/go/src/runtime/asm_amd64.s:1581
+getting mesh usage
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/operator/reconciler.(*Dispatcher).Handle
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/operator/reconciler/component.go:160
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/operator/reconciler.(*Dispatcher).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/operator/reconciler/component.go:91
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:29
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileFuncWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:40
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:28
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.(*ControlPlaneDeployer).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/controlplane.go:623
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.(*manageComponentsCommand).run
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:226
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.NewManageComponentsCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:80
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.(*installCommand).runOperatorReconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:360
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.NewInstallCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:141
+github.com/spf13/cobra.(*Command).execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:856
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:974
+github.com/spf13/cobra.(*Command).Execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:902
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/pkg/cli/cmd.Execute
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/pkg/cli/cmd/root.go:100
+main.main
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/cmd/backyards/main.go:33
+runtime.main
+        /usr/local/go/src/runtime/proc.go:255
+runtime.goexit
+        /usr/local/go/src/runtime/asm_amd64.s:1581
+wwwin-github.cisco.com/cisco-app-networking/smm/pkg/common/operator/reconciler.(*Dispatcher).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/pkg/common/operator/reconciler/component.go:93
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:29
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileFuncWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:40
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.ReconcileRequestWithRetry
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/reconcile.go:28
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.(*ControlPlaneDeployer).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/controlplane.go:623
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.(*manageComponentsCommand).run
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:226
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.NewManageComponentsCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:80
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.(*installCommand).runOperatorReconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:360
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.NewInstallCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:141
+github.com/spf13/cobra.(*Command).execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:856
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:974
+github.com/spf13/cobra.(*Command).Execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:902
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/pkg/cli/cmd.Execute
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/pkg/cli/cmd/root.go:100
+main.main
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/cmd/backyards/main.go:33
+runtime.main
+        /usr/local/go/src/runtime/proc.go:255
+runtime.goexit
+        /usr/local/go/src/runtime/asm_amd64.s:1581
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/deploy.(*ControlPlaneDeployer).Reconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/deploy/controlplane.go:630
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.(*manageComponentsCommand).run
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:226
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.NewManageComponentsCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:80
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.(*installCommand).runOperatorReconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:360
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.NewInstallCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:141
+github.com/spf13/cobra.(*Command).execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:856
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:974
+github.com/spf13/cobra.(*Command).Execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:902
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/pkg/cli/cmd.Execute
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/pkg/cli/cmd/root.go:100
+main.main
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/cmd/backyards/main.go:33
+runtime.main
+        /usr/local/go/src/runtime/proc.go:255
+runtime.goexit
+        /usr/local/go/src/runtime/asm_amd64.s:1581
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.(*manageComponentsCommand).run
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:228
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd/operator.NewManageComponentsCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/operator/manageComponents.go:80
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.(*installCommand).runOperatorReconcile
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:360
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/internal/cli/cmd.NewInstallCommand.func1
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/internal/cli/cmd/install.go:141
+github.com/spf13/cobra.(*Command).execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:856
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:974
+github.com/spf13/cobra.(*Command).Execute
+        /home/ubuntu/go/pkg/mod/github.com/spf13/cobra@v1.2.1/command.go:902
+wwwin-github.cisco.com/cisco-app-networking/smm/services/cli/pkg/cli/cmd.Execute
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/pkg/cli/cmd/root.go:100
+main.main
+        /mnt/workspace/N_backyards_backyards_smm_v1.9.1/clean_state_for_goreleaser/services/cli/cmd/backyards/main.go:33
+runtime.main
+        /usr/local/go/src/runtime/proc.go:255
+runtime.goexit
+        /usr/local/go/src/runtime/asm_amd64.s:1581
+error during operator reconcile
+
+root@189e55a9-6638-438f-51b6-0860d89215aa:/tmp/build/e55deab7/input#

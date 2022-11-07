@@ -1,0 +1,29 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: sconrod/python-aws-image
+    tag: "2"
+
+
+inputs:
+  - name: input
+run:
+  path: /bin/sh
+  args:
+    - -cex
+    - |
+      pwd
+      ls -la
+      cd input
+      chmod a+x vault_vpc.sh
+      ./vault_vpc.sh
+
+params:
+  VAULT_ADDR: ((vault.addr))
+  SSH_TOKEN: ((ssh-token.token))
+
+
+

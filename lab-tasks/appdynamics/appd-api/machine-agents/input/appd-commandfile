@@ -1,0 +1,14 @@
+sudo apt -y update
+sudo apt install rpm --reinstall
+sudo apt -y install procps
+sudo apt -y install default-jre
+sudo mkdir /opt/appdynamics
+sudo mkdir /opt/appdynamics/machineagent
+sudo cp appdynamics-machine-agent-22.2.0.3282.x86_64.rpm /opt/appdynamics/machineagent/appdynamics-machine-agent-22.2.0.3282.x86_64.rpm
+sudo chown -R ubuntu:ubuntu /opt/appdynamics
+sudo rpm -ivh /opt/appdynamics/machineagent/appdynamics-machine-agent-22.2.0.3282.x86_64.rpm
+sudo cp  /etc/appdynamics/machine-agent/controller-info.xml /etc/appdynamics/machine-agent/controller-info.xml.bak
+sudo cp -f ~/controller-info.xml /etc/appdynamics/machine-agent/controller-info.xml
+sudo systemctl start appdynamics-machine-agent
+
+
